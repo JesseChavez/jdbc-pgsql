@@ -63,7 +63,6 @@ For other Java version use Gem versions as per below table:
 
 | Java version | Gem version   | used driver |
 | ------------ | ------------- | ----------- |
-| 7            | 0.1.0         | 42.2.5      |
 | 9            | 0.1.0         | 42.2.5      |
 | 10           | 0.1.0         | 42.2.5      |
 

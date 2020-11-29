@@ -54,17 +54,17 @@ For supported Java version use Gem versions as per below table:
 
 | Java version | Gem version   | used driver |
 | ------------ | ------------- | ----------- |
-| 8            | 0.1.0         | 42.2.5      |
-| 11           | 0.1.0         | 42.2.5      |
+| 8            | 0.2.0         | 42.2.18     |
+| 11           | 0.2.0         | 42.2.18     |
 
 ## Other Java versions
 
 For other Java version use Gem versions as per below table:
 
-| Java version | Gem version   | used driver |
-| ------------ | ------------- | ----------- |
-| 9            | 0.1.0         | 42.2.5      |
-| 10           | 0.1.0         | 42.2.5      |
+| Java version   | Gem version   | used driver |
+|----------------|---------------|-------------|
+| 9,10           | 0.2.0         | 42.2.18     |
+| 12,13,14,15    | 0.2.0         | 42.2.18     |
 
 ## Development
 

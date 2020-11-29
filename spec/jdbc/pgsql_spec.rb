@@ -6,13 +6,13 @@ RSpec.describe Jdbc::Pgsql do
   end
 
   context '.jre_version' do
-    it 'should return current jre_version' do
+    it "should return current jre_version for java specification version #{ENV_JAVA['java.specification.version']}" do
       expect(ENV_JAVA['java.specification.version']).to include(Jdbc::Pgsql.jre_version.to_s)
     end
   end
 
   context '.jar_file' do
-    it "should exist driver jar file" do
+    it 'should exist driver jar file' do
       jar_file = Jdbc::Pgsql.jar_file
 
       expect(File.exist?("./lib/#{jar_file}")).to eq(true)

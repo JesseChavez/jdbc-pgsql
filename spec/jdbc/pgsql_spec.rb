@@ -20,12 +20,18 @@ RSpec.describe Jdbc::Pgsql do
   end
 
   context '.driver_version' do
-    it 'should not load driver when jre_version is nil' do
+    it 'should include major and minor from java Driver class' do
       driver = org.postgresql.Driver.new
       major = driver.get_major_version
       minor = driver.get_minor_version
 
       expect(Jdbc::Pgsql.driver_version).to include("#{major}.#{minor}")
+    end
+
+    it 'should be equal driver version from java PgDatabaseMetaData class' do
+      meta_data = org.postgresql.jdbc.PgDatabaseMetaData.new(nil)
+
+      expect(Jdbc::Pgsql.driver_version).to eq(meta_data.get_driver_version)
     end
   end
 

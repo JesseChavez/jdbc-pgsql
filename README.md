@@ -48,23 +48,23 @@ end
 
 For more details follow PostgreSQL Jdbc documentation and JRuby conventions to call java methods.
 
-## Supported Java versions
+## Supported versions
 
-For supported Java version use Gem versions as per below table:
+For supported Java version is 8 or greater
+
+
+Starting from driver version `42.5.1` gem follows same version as jdbc driver
 
 | Java version | Gem version   | used driver |
 | ------------ | ------------- | ----------- |
-| 8            | 0.2.0         | 42.2.18     |
-| 11           | 0.2.0         | 42.2.18     |
+| 8+           | 42.5.1        | 42.5.1      |
 
-## Other Java versions
-
-For other Java version use Gem versions as per below table:
+## Older versions
 
 | Java version   | Gem version   | used driver |
 |----------------|---------------|-------------|
-| 9,10           | 0.2.0         | 42.2.18     |
-| 12,13,14,15    | 0.2.0         | 42.2.18     |
+| 8+             | 0.1.0         | 42.2.5      |
+| 8+             | 0.2.0         | 42.2.18     |
 
 ## Development
 

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jdbc-pgsql (42.5.1-java)
+    jdbc-pgsql (42.5.2-java)
 
 GEM
   remote: https://rubygems.org/

@@ -23,6 +23,7 @@ GEM
     rspec-support (3.12.0)
 
 PLATFORMS
+  universal-java-11
   universal-java-17
 
 DEPENDENCIES

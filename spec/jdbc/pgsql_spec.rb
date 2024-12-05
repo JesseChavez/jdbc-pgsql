@@ -1,5 +1,5 @@
 RSpec.describe Jdbc::Pgsql do
-  java_versions = ['1.8'] + ('9'..'19').to_a
+  java_versions = ['1.8'] + ('9'..'21').to_a
 
   it 'has a version number' do
     expect(Jdbc::Pgsql::VERSION).not_to be nil

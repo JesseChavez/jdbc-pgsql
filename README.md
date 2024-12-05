@@ -58,6 +58,7 @@ Starting from driver version `42.5.1` gem follows same version as jdbc driver
 | Java version | Gem version   | used driver |
 | ------------ | ------------- | ----------- |
 | 8+           | 42.5.1        | 42.5.1      |
+| 8+           | 42.7.4        | 42.7.4      |
 
 ## Older versions
 

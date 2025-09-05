@@ -13,7 +13,7 @@ module Jdbc
     end
 
     def self.driver_version
-      "42.7.4"
+      "42.7.7"
     end
 
     def self.jar_file
